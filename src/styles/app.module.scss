@@ -1,0 +1,11 @@
+.wrapper {
+	display: flex;
+
+	main {
+		flex: 1;
+	}
+
+	@media (max-width: 720px) {
+		display: grid;
+	}
+}
